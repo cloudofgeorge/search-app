@@ -1,0 +1,13 @@
+.paginationItem {
+  &.active {
+    border-color: var(--control-primary);
+    &:hover,
+    &:active,
+    &:focus {
+      background: inherit;
+    }
+  }
+  &.wrap {
+    width: 40px;
+  }
+}

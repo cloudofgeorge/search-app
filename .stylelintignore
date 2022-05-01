@@ -1,0 +1,15 @@
+dist
+dest
+node_modules
+storybook-static
+coverage
+reports
+cypress
+examples
+*.postcss
+*.config.*
+*.d.ts
+*.ts
+*.tsx
+*.js
+*.jsx

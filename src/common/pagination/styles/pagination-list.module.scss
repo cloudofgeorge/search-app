@@ -1,0 +1,25 @@
+@import '_variables';
+
+.list {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  @media (max-width: $media-mobile-large) {
+    justify-content: space-between;
+  }
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: $media-mobile-large) {
+    &:not(:last-of-type) {
+      margin-right: 8px;
+    }
+  }
+}
